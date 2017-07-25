@@ -1,3 +1,4 @@
+ENV['RACK_ENV'] = 'test'
 require 'capybara/rspec'
 require './app/models/link'
 require './app/BookmarkManager'
@@ -24,7 +25,7 @@ RSpec.configure do |config|
   end
 end
 
-ENV['RACK_ENV'] = 'test'
+
 require File.join(File.dirname(__FILE__), '..', './app/BookmarkManager.rb')
 Capybara.app = BookmarkManager
 

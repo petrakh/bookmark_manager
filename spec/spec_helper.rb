@@ -18,9 +18,6 @@ RSpec.configure do |config|
 
   # Everything in this block runs once after each individual test
   config.after(:each) do
-    DataMapper.setup(:default, "postgres://localhost/bookmark_manager_test")
-    DataMapper.finalize
-    DataMapper.auto_upgrade!
     DatabaseCleaner.clean
   end
 end

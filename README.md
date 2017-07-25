@@ -1,11 +1,11 @@
 # BOOKMARK CHALLENGE - Makers Academy Week 4
 ------------------------------------------
 
-##Description
+## Description
 -----------
 A web application connected to a database managing stored links.
 
-##User Stories
+## User Stories
 ------------
 As a student,
 So that I can have an overview of my bookmarks.
@@ -23,5 +23,5 @@ As a student,
 So that I can quickly navigate.
 I want to be able to search the page my bookmarks tags.
 
-##Configuration
+## Configuration
 -------------
